@@ -1,6 +1,6 @@
 module github.com/sethvargo/ratchet
 
-go 1.19
+go 1.23.0
 
 require (
 	github.com/google/go-containerregistry v0.11.0
@@ -24,9 +24,9 @@ require (
 	github.com/opencontainers/image-spec v1.0.3-0.20220114050600-8b9d41f48198 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/sirupsen/logrus v1.9.0 // indirect
-	golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa // indirect
-	golang.org/x/net v0.0.0-20220811182439-13a9a731de15 // indirect
-	golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab // indirect
+	golang.org/x/crypto v0.35.0 // indirect
+	golang.org/x/net v0.21.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 )
